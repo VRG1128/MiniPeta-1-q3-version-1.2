@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/yellow_simple_iu_ux_design_app__12_"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="216dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/white"
+        android:text="Exit app"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="60dp"
+        android:layout_height="67dp"
+        app:srcCompat="@drawable/yellow_simple_iu_ux_design_app__11_"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="216dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/white"
+        android:text="Record your attendance"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="216dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/white"
+        android:text="Attendance list"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="216dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/white"
+        android:text="Class list"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="265dp" />
+    ... />
+</androidx.constraintlayout.widget.ConstraintLayout>
